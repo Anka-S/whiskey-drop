@@ -24,13 +24,23 @@
             </li>
         </ul>
         <div class="d-none d-md-block">
-        <p class="navbar-text my-auto mr-2">
-            <i>Great whiskey delivered to your door!</i>
-        </p>
-        <a href="/login">Sign In / Sign Up</a>
-    </div>
+            <p class="navbar-text my-auto mr-2">
+                <i>Great whiskey delivered to your door!</i>
+            </p>
+            <a href="/login">Sign In / Sign Up</a>
+        </div>
     </nav>
     <article class="container mt-3">
+        <!--Sale alert-->
+        <div class="row d-none d-sm-block">
+            <div class="col-12">
+                <div class="alert alert-warning">
+                    <strong>Sale Now On! </strong> We've got a sale on.
+                    Get a 12-month subscriprtion for the price of six!
+                    <a href="">See here for details!</a>
+                </div>
+            </div>
+        </div>
         <!--Callout-->
         <div class="row">
             <div class="col-12">
@@ -38,7 +48,7 @@
                     <h1>The finest whiskeys delivered to your doorstep.</h1>
                     <p class="lead">Sign up today to start receiving the world's best whiskeys every mounth.
                         <s class="d-none d-sm-inline">€19.99</s>
-                        <span class="d-inline d-sm-none"><br></span> 
+                        <span class="d-inline d-sm-none"><br></span>
                         <strong><mark>First one is free!</mark></strong>
                     </p>
                     <button class="btn btn-success btn-lg">Sign Up!</button>
@@ -58,16 +68,32 @@
             </div>
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <blockquote class="blockquote">
-                        <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
-                        <p>- Jane Doe</p>
+                    <!--Image for quote-->
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                        <img src="images/girl-image.png" class="rounded-circle mr-3" alt="Photo of a girl" height=100 width=100>
                     </div>
-                    </blockquote>
-                    <div class="col-12 col-md-6">
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>I've been introduced to more than 10 great international whiskeys I never knew about.
+                                </p>
+                                <p>- Jane Doe</p>
+                        </div>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                        <img src="images/guy-image.png" class="rounded-circle mr-3" alt="Photo of a girl" height=100 width=100>
+                    </div>
+                        <div class="media-body">
                     <blockquote class="blockquote">
                         <p>I haven't been sober foe months!</p>
                         <p>- Jane Doe</p>
                     </blockquote>
+                </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -83,17 +109,17 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3>Feature 1</h3>
+                        <h3><i class="fa-solid fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge badge-success">NEW!</span></h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam harum libero quae illo enim,
                             doloremque, id nulla quidem cum error odit assumenda, accusantium unde maxime deserunt vero
                             delectus
                             possimus! Numquam.</p>
                         <p><a href="" class="btn btn-sm btn-light">Read More</a></p>
                     </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3>Feature 2</h3>
+                        <h3><i class="fa-solid fa-credit-card d-none d-sm-inline"></i> Feature 2</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam harum libero quae illo enim,
                             doloremque, id nulla quidem cum error odit assumenda, accusantium unde maxime deserunt vero
                             delectus
@@ -103,7 +129,7 @@
                 </div>
                 <div class="col-12 d-md-none d-lg-block col-lg-4">
                     <div class="feature">
-                        <h3>Feature 3</h3>
+                        <h3><i class="fa-solid fa-circle-xmark d-none d-sm-inline"></i> Feature 3</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam harum libero quae illo enim,
                             doloremque, id nulla quidem cum error odit assumenda, accusantium unde maxime deserunt vero
                             delectus
@@ -114,6 +140,7 @@
             </div>
         </section>
     </article>
+    <!--Font Awesome Kit-->
+<script src="https://kit.fontawesome.com/5a75afae0c.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
