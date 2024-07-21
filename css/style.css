@@ -1,0 +1,50 @@
+body {
+font-family:'Roboto' , sans-serif;
+}
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+    /* bg image*/
+    background: url("../images/ulvi-safari-uyQ9lQcdI-Q-unsplash.jpg") no-repeat center right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*Flexbox*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quotes-container {}
+
+.features-container {}
+
+/*Block divider*/
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #b4731cad;}
+
+/*Jumbotron*/
+.jumbotron {
+    background: transparent;
+}
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.jumbotron .lead {
+    color: #d4dbe3;
+    margin: 25px 0;
+
+}
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d4dbe3;
+}
+
