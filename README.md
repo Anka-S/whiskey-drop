@@ -129,3 +129,6 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+##Sources:
+https://unsplash.com/photos/clear-drinking-glass-with-yellow-liquid-and-green-leaves-uyQ9lQcdI-Q - background image for 'Callout' section
