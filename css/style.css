@@ -1,8 +1,17 @@
 body {
 font-family:'Roboto' , sans-serif;
 }
-.alert-container {}
-
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.side-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #ebc13a;
+    border-color: #ebc13a;
+}
 .callout-container {
     height: 100vh;
     /* bg image*/
