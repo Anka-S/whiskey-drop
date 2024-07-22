@@ -1,9 +1,7 @@
 body {
 font-family:'Roboto' , sans-serif;
 }
-.container-wrappers {
 
-}
 .container-wrapper--red {
     background-color: #b4731cad;
     color: white;
@@ -44,9 +42,6 @@ font-family:'Roboto' , sans-serif;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.quotes-container {}
-
-.features-container {}
 /* Page headers */
 .page-header {
     margin-bottom: 0;
