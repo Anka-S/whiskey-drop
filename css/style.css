@@ -15,6 +15,17 @@ font-family:'Roboto' , sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .quotes-container {}
@@ -26,7 +37,14 @@ font-family:'Roboto' , sans-serif;
     width: 75px;
     height: 5px;
     border: 0;
-    background-color: #b4731cad;}
+    }
+
+    .block-divider--orange {
+        background-color: #b4731cad;
+    }
+    
+    .block-divider--short {
+        width: 35px;}
 
 /*Jumbotron*/
 .jumbotron {
@@ -46,5 +64,28 @@ font-family:'Roboto' , sans-serif;
     font-size: 60%;
     font-style: italic;
     color: #d4dbe3;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #b4731cad;
+    border-color: #b4731cad;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #873f12ad;
+    border-color: #873f12ad;
+    color: white;
 }
 
